@@ -285,6 +285,7 @@ th {
     content: '\e80a'
 }
 
+/*
 @font-face {
     font-family: 'Cardo';
     font-style: normal;
@@ -326,6 +327,7 @@ th {
     font-weight: 700;
     src: local("Fira Sans Bold"), local("FiraSans-Bold"), url("//fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOhampu5_7CjHW5spxoeN3Vs.woff2") format("woff2"), url("//fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOqRDOzjiPcYnFooOUGCOsRk.woff") format("woff")
 }
+*/
 
 .hljs {
     display: block;
@@ -469,7 +471,7 @@ html.menu-active,
 }
 
 body {
-    font: 400 2em / 1.5em 'Cardo', serif;
+    font: 400 2em / 1.5em 'Cardo', 'Cambria', 'Times New Roman', serif;
     color: #45484d;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -495,7 +497,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', 'Calibri', 'Helvetica', 'Arial', sans-serif;
     text-rendering: optimizeLegibility;
     color: #000
 }
